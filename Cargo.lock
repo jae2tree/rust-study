@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "first_curi"
+name = "easy_rust"
 version = "0.1.0"

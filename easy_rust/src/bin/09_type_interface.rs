@@ -1,4 +1,4 @@
-#[allow(unused_variables)]
+#[allow(unused)]
 
 fn main() {
   let number : u8 = 10;
@@ -14,5 +14,5 @@ fn main() {
   //let result_float = float + other_float; //error mismatched types;
   let result = float + other_float as f64;
 
-  let a : u8 = 256;
+  //let a : u8 = 256; // overflow
 }

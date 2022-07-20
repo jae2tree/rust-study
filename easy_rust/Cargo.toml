@@ -1,0 +1,26 @@
+[package]
+name = "easy_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "08_types"
+[[bin]]
+name = "09_type_interface"
+[[bin]]
+name = "10_print"
+[[bin]]
+name = "11_display_and_debug"
+[[bin]]
+name = "12_mutability"
+[[bin]]
+name = "13_stack_heap_pointer"
+[[bin]]
+name = "14_more_about_printing"
+[[bin]]
+name = "16_stack_heap_own_borrow"

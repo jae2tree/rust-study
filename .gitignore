@@ -1,3 +1,7 @@
 **/src/**.pdb
 **/src/**.exe
 **/target/
+
+# Added by cargo
+
+/target

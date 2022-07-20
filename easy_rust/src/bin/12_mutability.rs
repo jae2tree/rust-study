@@ -1,3 +1,4 @@
+#[allow(unused)]
 fn main() {
   //let my_number = 0; // default immutable
   let mut my_number = 0;
