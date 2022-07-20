@@ -2,7 +2,7 @@
 
 ## 08_types(명사와 동사)
 ### - 명사
-#### 1. Primitive types - Data is in stack. 숫자, 문자(Car), Tuple ...
+#### 1. Primitive types - Data is in stack. 숫자, 문자(Char), Tuple ...
 The signed integers are; `i8`, `i16`, `i32`, `i64`, `i128`, and `isize`.   
 The unsigned integers are; `u8`, `u16`, `u32`, `u64`, `u128` and `usize`. floating number `f16`, `f32`.   
 usize is the best size for indexing.
@@ -13,7 +13,7 @@ usize is the best size for indexing.
 >- When using characters as part of a string, the string is encoded to use the least   
 >- amount of memory needed for each character.
 
-#### 2. Complex type - Data is in heap. 문자열(String) Struct, Vector...
+#### 2. Complex type - Data is in heap. 문자열(String), Struct, Vector...
 ### - 동사
 Lifetime
 

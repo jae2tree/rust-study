@@ -7,12 +7,12 @@ fn main() {
   println!("Hello,world! nuber {} and {}", 8, 9);
   println!("{}", number());
 
-  multiply(2,4);
-  println!("{}", multiply2(4,6));
+  multiply(2, 4);
+  println!("{}", multiply2(4, 6));
 
   {
     let block_number = 16;
-  }// dropped block_number;
+  } // dropped block_number;
 
   // println!("{}", block_number); // error
 
@@ -34,7 +34,7 @@ fn multiply(one: i32, two: i32) {
   println!("{} * {} = {}", one, two, result);
 }
 
-fn multiply2(one: i32, two: i32) -> i32{
+fn multiply2(one: i32, two: i32) -> i32 {
   let result = one * two;
   println!("{} * {} = {}", one, two, result);
   result
