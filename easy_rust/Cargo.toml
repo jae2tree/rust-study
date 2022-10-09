@@ -22,5 +22,3 @@ name = "12_mutability"
 name = "13_stack_heap_pointer"
 [[bin]]
 name = "14_more_about_printing"
-[[bin]]
-name = "16_stack_heap_own_borrow"

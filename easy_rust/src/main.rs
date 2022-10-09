@@ -1,3 +1,3 @@
 fn main() {
-    println!("easy_rust");
+  println!("easy_rust");
 }

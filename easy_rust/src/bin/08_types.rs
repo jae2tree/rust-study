@@ -6,7 +6,18 @@ fn f1() {
   let first_letter = 'A';
   let space = ' ';
   let other_language_char = 'Ꮔ';
+
   let cat_face = '😺';
+  let emoz: u32 = 58;
+
+  println!("u8 : {}, i32 : {}", first_letter as u8, first_letter as i32);
+  println!("{}", space as u8);
+  println!("{}", other_language_char as u8);
+  println!("{}, {}", "😺".len(), std::mem::size_of::<u8>());
+  println!(
+    "cat_face: {}, emoz: {}",
+    cat_face as u32, emoz as u8 as char
+  );
 }
 
 //only `u`8` can be cast as `char`
