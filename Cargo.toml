@@ -1,5 +1,5 @@
 [workspace]
 
 members= [
-  "easy_rust", "guessing_game"
+  "easy_rust", "guessing_game", "mod-test"
 ]
